@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class="align-center m-5">Word Limit: {{limit}}</h1>
+  <div class="m-5">
+    <input type="range" class="form-control-range" max="50" min="5" value="{{limit}}"
+      (change)="changeCount($event.target.value)">
+  </div>
+  <div class="row">
+    <button class="btn btn-primary align-center" (click)="generate()">Generate Word</button>
+  </div>
+
+  <div *ngIf="word" class="words  m-5">
+    {{word}}
+  </div>
+</div>

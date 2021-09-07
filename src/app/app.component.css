@@ -1,0 +1,26 @@
+h1 {
+  color: #0e153a;
+  text-align: center;
+}
+
+button {
+  background: #3d5af1;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 26px;
+  margin: 0 auto;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.words {
+  color: #000;
+  font-size: 24px;
+  background: #22d1ee;
+  padding: 10px;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 5px;
+}
